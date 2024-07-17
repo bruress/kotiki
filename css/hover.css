@@ -1,0 +1,40 @@
+@keyframes kitty__up {
+    0% {
+        margin-top: 15px;
+    }
+    100% {
+        margin-bottom: 10px;
+    }
+} 
+.title:hover {
+    color: #A71111;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.title{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+img:hover {
+    box-shadow: 10px 50px 20px 0px rgba(250, 138, 138, 0.50), 0px 20px 30px 0px rgba(167, 17, 17, 0.25), 0px 35px 20px 0px rgba(239, 72, 72, 0.20);
+    cursor:pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    animation: kitty__up  0.9s cubic-bezier(0.1, 0.25, 0.1, 1) 0s infinite alternate both;
+}
+img {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.button:hover {
+    background-color: #FA8A8A;
+    color: #fff;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+.apply__column:hover {
+    cursor: pointer;
+    border:  dotted #FA8A8A;
+}
